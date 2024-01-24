@@ -2,8 +2,8 @@ const xpress = require("express");
 const monogo = require("mongoose");
 
 const bcryptsa=require("bcrypt");
-const signup=require("./models/signup");
-const models = require("./models/model");
+const signup=require("./signup");
+const models = require("./model");
 const parser = require("body-parser");
 const cors = require('cors');
 const bodyParser = require("body-parser");
